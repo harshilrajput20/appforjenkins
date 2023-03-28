@@ -3,10 +3,10 @@ pipeline {
   environment {
     APPSYSID = '7f8acaa21b352110061b8623604bcbf9'
     BRANCH = "${BRANCH_NAME}"
-    CREDENTIALS = '18be2029-2e62-4070-8828-dbb3aa39f0f0'
-    DEVENV = 'https://devinstance.service-now.com/'
-    TESTENV = 'https://testinstance.service-now.com/'
-    PRODENV = 'https://prodinstance.service-now.com/'
+    CREDENTIALS = 'servicenow'
+    DEVENV = 'https://chiarngdevdemo.service-now.com/'
+    TESTENV = 'https://chiarngtestdemo.service-now.com/'
+    PRODENV = 'https://chiarngproddemo.service-now.com/'
     TESTSUITEID = 'b1ae55eedb541410874fccd8139619fb'
   }
   stages {
